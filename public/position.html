@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #one
+        {
+            background-color: white;
+            height: 400px;
+            width: 400px;
+            position: relative;
+            overflow: hidden;
+            transform: scale(1);
+            display: flex;
+    justify-items: center;
+    align-items: center;
+        }
+        img{
+            
+            transition: all .5s ease-in-out ;
+            height: 400px;
+            width: 400px;
+        }
+img:hover
+{
+
+transform: scale(1.2);
+}
+#btn{
+    position: absolute;
+    z-index: 99999;
+    color: red;
+    top: 0px;
+    height: 400px;
+            width: 400px;
+            display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+      
+    </style>
+   <div>
+    <div id="one">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2019/07/india-educational-tour-packages-370x375.jpg"/>
+       <div id="btn">Click</div>
+    </div>
+</div>
+</body>
+</html>

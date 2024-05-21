@@ -1,0 +1,3021 @@
+.Navbar__one{
+     text-transform: capitalize;
+}
+
+.logobrand{
+     width: 255px;
+     height: 50px;
+}
+#dropdownMenuButton:hover > #shoow{
+     display: block;
+     position: absolute;
+     color: black;
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     z-index: 1000;
+     padding: 10px 0;
+     font-size: 16px;
+     min-width: 200px;
+     border-radius: 10px;
+}
+
+.MainLI >li{
+     padding-right: 30px;
+}
+
+@media (max-width:992px) {
+     .MainLI > li{
+        margin-bottom: 20px;
+     }
+}
+
+.MainLI{
+     padding: 20px 10px;
+}
+
+#dropdownMenuButton :hover{
+     color:crimson;
+}
+
+#shoow{
+     display: none;
+}
+
+.StyleRemove{
+     list-style-type: none;
+     padding-left:0;
+}
+
+.StyleRemove > li{
+     padding: 0 30px;
+}
+
+.StyleRemove > li > a{
+     text-decoration: none;
+     color: black;
+     font-size: 16px;
+     font-weight: 500;
+}
+
+.Navbar__two > div > a{
+     text-decoration: none;
+     color:black;
+     font-size: 16px;
+     font-weight: 500;
+     padding:0;
+}
+
+.navbar-nav > li > a{
+     padding:0;
+}
+
+.DirectLI > a{
+     color: black;
+     font-size: 16px;
+     font-weight: 500;
+}
+
+.DirectLI > a:hover{
+     color: crimson;
+     background-color: white !important;
+}
+
+.hamburger__click > span{
+     border: 2px solid black;
+}
+
+.hamburger__click{
+     border: 2px solid black;
+}
+
+.hamburger__click:hover{
+     background-color: crimson;
+     border: none;
+}
+
+
+.Navbar__two > a:hover{
+     color: crimson;
+     background-color: white !important;
+}
+
+.nav > li > a:focus{
+     background-color: white !important;
+}
+
+.dropdown-item{
+     padding: 5px 25px !important;
+     font-size: 16px;
+     font-weight: 500;
+}
+ 
+.dropdown-menu{
+     border-radius: 10px !important;
+     min-width: 200px !important;
+     padding:0;
+}
+
+
+.Navbar__Search{
+     position: relative;
+     top: 16px;
+     left: 3%;
+     font-size: 28px;
+     background-color: white;
+     border: none;
+}
+
+.Navbar__Search:hover{
+     color: crimson;
+}
+
+.Navbar__drop{
+     padding: 18px 8% 18px 10px;
+     margin-left: 52%; 
+}
+
+@media (max-width : 992px) {
+     .Navbar__drop{
+          margin-left:0;
+     }
+     
+}
+
+.Navbar__submit{
+     position: absolute;
+     left: 68%;
+     min-width: 20px !important;
+     background-color: crimson;
+     color: white;
+     top: 70px;
+     padding: 10px ;
+     text-align: center;
+}
+
+.Navbar__submit:hover{
+     background-color: black;
+     border: none;
+     color: white;
+}
+
+@media (max-width : 992px) {
+     .Navbar__submit{
+          position: absolute;
+          min-width: 40px !important;
+          left: 40%;
+          top: 102%;
+          padding: 10px;
+          border-radius: 5px !important;
+     }          
+}
+
+@media (max-width: 380px) {
+     .Navbar__submit{
+          position: absolute;
+          min-width: 40px !important;
+          left: 48%;
+          top: 102%;
+          padding: 10px;
+          border-radius: 5px !important;
+     }
+     
+}
+
+
+.Navbar__Shopping > a{
+     position: relative;
+     top: 16px;
+     left: 5%;
+     font-size: 26px;
+     cursor: pointer;
+     color: black;
+     text-decoration: none;
+}
+
+.Navbar__Shopping > a:hover{
+     color: crimson;
+     text-decoration: none;
+}
+
+.Navbar__btn{
+     position: relative;
+     left: 10%;
+     padding: 14px 16px;
+     background-color: crimson;
+     color: white;
+     text-decoration: none;
+     border: none;
+     font-size: 16px;
+     border-radius: 12px;
+     font-weight: 500;
+}
+
+.Navbar__btn > a > span{
+     font-size: 20px;
+     position: relative;
+     top: 4px;
+     color: white;
+}
+
+.Navbar__btn > a{
+     text-decoration: none;
+     color: white;
+}
+
+.Navbar__btn:hover{
+     background-color: black;
+     text-decoration: none;
+     color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CommonBG{
+   text-transform: capitalize;
+   background-image: url("../Components/Assets/About/about us 1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 150px;
+   padding-top: 120px;
+   text-align: center;
+   margin-bottom: 8%;
+}
+
+@media (max-width:992px) {
+     .CommonBG{
+          margin-bottom: 20%;
+     }
+     
+}
+
+.CommonBG__title{
+     color:white;
+     font-weight: 900;
+     font-size: 40px;
+}
+
+.CommonBG > h4{
+     color:white;
+}
+
+.CommonBG > h4 > span{
+     color:crimson;
+}
+
+.CommonBG > h4 > a{
+     color:white;
+     text-decoration: none;
+}
+
+.CommonBG > h4 > a:hover{
+     color:crimson;
+
+}
+
+.About__two{
+     text-transform: capitalize;
+     margin-bottom: 8%;
+}
+
+@media (max-width : 992px) {
+     .About__two{
+          margin-bottom: 20%;
+     }
+}
+
+
+.About__twoC > h1 > span{
+     color:crimson;
+}
+
+.About__twoC > h4{
+    color:crimson;
+    letter-spacing: 3px;
+}
+
+.About__twoC > h1{
+   font-size: 46px;
+   font-weight: 700;
+}
+
+.About__twoC > p{
+   text-transform: none;
+   color:gray;
+}
+
+.About__twoC > h5{
+   color:gray;
+   margin-bottom: 20px;
+}
+
+.About__twoC > a > h4{
+   padding:0 15px 0 15px;
+   text-transform: capitalize;
+   color:white;
+}
+
+.About__twoC > a{
+  background-color: crimson;
+  border-radius: 10px;
+}
+
+.About__twoC > a:hover{
+  background-color: black;
+  border: none;
+}
+
+.About__twoC > h5 > span{
+     color:crimson;
+     
+}
+
+
+.About__three{
+     margin-bottom: 8%;
+     padding:7% 1% 7% 1%;
+}
+
+@media (max-width:992px) {
+     .About__three{
+          padding-bottom: 20%;
+     }
+}
+
+.About__threeH{
+     text-transform: capitalize;
+     text-align: center;
+     margin-bottom: 8%;
+}
+
+.About__threeH > h4{
+     letter-spacing: 3px;
+     color: crimson;
+     text-transform: uppercase;
+}
+
+.About__threeH > h1{
+     color:black;
+     margin:0;
+     font-size: 46px;
+     font-weight: 700;
+}
+
+.About__threeH > h1 > span{
+     color:crimson;
+}
+
+.About__threeL{
+     border: crimson solid 2px;
+     width: 90px;
+     display: inline-block;
+}
+
+.About__swiper1 > p{
+     font-size: 18px; 
+}
+
+.About__swiper1{
+     background-color:white;
+     border: 1px solid white;
+     padding: 25px 10px 25px 10px;
+     border-radius: 20px;
+}
+.About__swiper1 > h3{
+     color: black;
+     text-transform: capitalize;
+     font-weight: 600;
+}
+
+
+.About__swiper1 > h5{
+     color:crimson;
+     text-transform: capitalize;
+     font-weight: 500;
+}
+
+.About__swiper1 > span{
+     color: crimson;
+     margin-left: 5px;
+     font-weight: 900;
+     font-size: 15px;
+}
+
+
+
+.About__four{
+     text-transform: capitalize;
+     text-align: center;
+     margin-bottom: 8%;
+}
+
+@media (max-width:992px) {
+     .About__four{
+          margin-bottom: 20%;
+     }
+}
+
+.About__fourH > h4{
+     letter-spacing: 3px;
+     color: crimson;
+     text-transform: uppercase;
+}
+
+.About__fourH > h1{
+     color:black;
+     font-size: 46px;
+     font-weight: 700;
+     margin:0;
+     margin-bottom: 15px;
+}
+
+.About__fourH > h1 > span{
+     color:crimson;
+}
+
+.About__fourL{
+     border: crimson solid 2px;
+     width: 90px;
+     display: inline-block;
+     margin-bottom: 6%;
+}
+
+.About__fourC{
+     text-transform: capitalize;
+}
+
+.About__fourC > div > h4{
+     color: crimson;
+}
+
+.About__fourC > div > img{
+     border-radius: 30px;
+}
+
+.About__fourC > div{
+     padding: 20px;
+     background-color: whitesmoke;
+     border: white 2px solid;
+     border-radius: 30px;
+     margin-bottom: 20px;
+}
+
+.About__fourD > a{
+     display: block;
+     color: white;
+     background-color: crimson;
+     width: 40px;
+     height: 40px;
+     margin-bottom: 10px;
+     line-height: 40px;
+     border-radius: 50px;     
+}
+
+.About__fourD{
+     right:30px;
+     top:30px;
+     position: absolute;
+}
+
+.About__fourD > a:hover{
+     background-color: black;
+     opacity: 1;
+
+}
+
+
+
+.About__five{
+     text-align: center;
+     text-transform: capitalize;
+     margin-bottom: 8%;
+}
+
+@media (max-width:992px) {
+     .About__five{
+          margin-bottom: 20%;
+     }
+}
+
+
+.About__fiveH > h4{
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     color: crimson;
+}
+
+.About__fiveH > h1{
+     color: black;
+     font-size: 46px;
+     font-weight: 700;
+     margin:0;
+     margin-bottom: 15px;
+}
+
+.About__fiveH > h1 > span{
+     color: crimson;
+}
+
+.About__fiveL{
+     border: crimson solid 2px;
+     width: 90px;
+     display: inline-block;
+     margin-bottom: 6%;
+}
+
+.About__fiveC > div{
+     margin-bottom: 20px;
+     padding: 0 10px 0 10px;
+}
+
+.About__fiveCInside > h4:hover{
+     color: crimson;
+     cursor: pointer;
+}
+
+.About__fiveCInside{
+     background-color: whitesmoke;
+     padding:20px;
+     border-radius: 10px;
+}
+
+
+
+
+.AuthenticationR__one{
+     text-transform: capitalize;
+}
+
+.AuthenticationR__two{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding: 40px;
+}
+
+.AuthenticationR__two > img{
+     margin-bottom: 15px;
+}
+
+.AuthenticationR__three > div{
+     margin-bottom: 15px;
+}
+
+.AuthenticationR__three > div > input{
+     padding: 22px;
+     border-radius: 10px;
+}
+
+.AuthenticationR__three > div > span{
+     color: crimson;
+}
+
+.AuthenticationR__button > button{
+     margin-bottom: 20px;
+     background-color: crimson;
+     color: white;
+     padding:10px;
+     width: 100%;
+     display: block;
+     border-radius: 10px;
+     font-weight: 500;
+     border: none;
+}
+
+.AuthenticationR__button > button:hover{
+     background-color: black;
+     color: white;
+     border: none;
+}
+
+.AuthenticationR__four{
+     text-align: center;
+     color: gray;
+     font-weight: 500;
+}
+
+.AuthenticationR__four > p > a{
+     color: crimson;
+}
+
+.AuthenticationR__four > p > a:hover{
+     text-decoration: none;
+     color: black;
+}
+
+.AuthenticationR__five > a{
+          display: inline-block;
+          color: white;
+          background-color: crimson;
+          margin:5px;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          border-radius: 50px;  
+          padding: 0 12px 10px 12px;
+}
+
+.AuthenticationR__five > a:hover{
+         background-color: black;
+}
+
+.AuthenticationR__five{
+     text-align: center;
+}
+
+
+
+
+
+.AuthenticationL__one{
+     text-transform: capitalize;
+}
+
+.AuthenticationL__two{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding: 40px;
+}
+
+.AuthenticationL__two > img{
+     margin-bottom: 15px;
+}
+
+.AuthenticationL__three > div{
+     margin-bottom: 15px;
+}
+
+.AuthenticationL__three > div > input{
+     padding: 22px;
+     border-radius: 10px;
+}
+
+.AuthenticationL__three > div > span{
+     color: crimson;
+}
+
+.AuthenticationL__three > div > a{
+     color:crimson;
+     float:right;
+}
+
+.AuthenticationL__three > div > a:hover{
+     color: black;
+     text-decoration: none;
+}
+
+.AuthenticationL__button > button{
+     margin-bottom: 20px;
+     background-color: crimson;
+     color: white;
+     padding:10px;
+     width: 100%;
+     display: block;
+     border-radius: 10px;
+     font-weight: 500;
+     border: none;
+}
+
+.AuthenticationL__button > button:hover{
+     background-color: black;
+     color: white;
+     border: none;
+}
+
+.AuthenticationL__four{
+     text-align: center;
+     color: gray;
+     font-weight: 500;
+}
+
+.AuthenticationL__four > p > a{
+     color: crimson;
+}
+
+.AuthenticationL__four > p > a:hover{
+     text-decoration: none;
+     color: black;
+}
+
+.AuthenticationL__five > a{
+          display: inline-block;
+          color: white;
+          background-color: crimson;
+          margin:5px;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          border-radius: 50px;  
+          padding: 0 12px 10px 12px;
+}
+
+.AuthenticationL__five > a:hover{
+         background-color: black;
+}
+
+.AuthenticationL__five{
+     text-align: center;
+}
+
+
+
+
+.AuthenticationF__one{
+     text-transform: capitalize;
+}
+
+.AuthenticationF__two{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding: 40px;
+}
+
+.AuthenticationF__two > img{
+     margin-bottom: 15px;
+}
+
+.AuthenticationF__three > div{
+     margin-bottom: 15px;
+}
+
+.AuthenticationF__three > div > input{
+     padding: 22px;
+     border-radius: 10px;
+}
+
+.AuthenticationF__button > button{
+     margin-bottom: 20px;
+     background-color: crimson;
+     color: white;
+     padding:10px;
+     width: 100%;
+     display: block;
+     border-radius: 10px;
+     font-weight: 500;
+     border: none;
+}
+
+.AuthenticationF__button > button:hover{
+     background-color: black;
+     color: white;
+     border: none;
+}
+
+
+
+
+.Profile__one{
+     text-transform: capitalize;
+}
+
+.Profile__head{
+     text-align: center;
+}
+
+.Profile__head > button{
+     top: 100px;
+     bottom: 0;
+     right:100px;
+     text-align: center;
+     line-height: 28px;
+     position: absolute;
+     background-color: crimson;
+     width: 30px;
+     height: 30px;
+     border-radius: 20px;
+     color: white;
+     border: none;
+}
+
+.Profile__inner1{     
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:30px;
+     border-radius: 10px;
+     
+}
+
+.Profile__two > a{
+     display: block;
+     padding-bottom:20px;
+     color: black;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 16px;
+}
+
+.Profile__two > a:hover{
+     background-color: crimson;
+     color: white;
+     padding:10px;
+     border-radius: 5px;
+     border: none;
+}
+
+.Profile__two > a > span:hover{
+     color: white;
+     background-color: crimson;
+}
+
+.Profile__two > a > span{
+     color: crimson;
+}
+
+.Profile__inner2{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     border-radius: 10px;
+     padding:20px;
+}
+
+.Profile__three > div > input{
+     padding: 22px;
+     border-radius: 10px;
+}
+
+.Profile__three > div{
+     margin-bottom: 20px;
+}
+
+.Profile__button1 > button{
+     background-color: crimson;
+     color: white;
+     padding: 15px;
+     font-size: 16px;
+     width: 100%;
+     display: block;
+     border-radius: 10px;
+     font-weight: 500;
+     border: none; 
+}
+
+.Profile__button1 :hover{
+     background-color: black;
+     color: white;
+}
+
+
+
+.Profile__inner3{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     border-radius: 10px;
+     padding:20px 20px 0 20px;
+     padding-bottom: 25%;
+}
+
+.Profile__four > div > input{
+     padding: 22px;
+     border-radius: 10px;
+}
+
+.Profile__four > div{
+     margin-bottom: 20px;
+}
+
+.Profile__button2 > button{
+     margin-bottom: 20px;
+     background-color: crimson;
+     color: white;
+     padding: 15px;
+     font-size: 16px;
+     width: 100%;
+     display: block;
+     border-radius: 10px;
+     font-weight: 500;
+     border: none; 
+}
+
+.Profile__button2 :hover{
+     background-color: black;
+     color: white;
+}
+
+
+
+.Profile__five{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     border-radius: 10px;
+     padding:20px;
+}
+
+.Profile__six > img{
+     padding: 20px;
+}
+
+.Profile__six > button{
+     margin-bottom: 40px;
+     background-color: crimson;
+     color: white;
+     padding: 15px;
+     font-size: 16px;
+     width: 100%;
+     border-radius: 10px;
+     font-weight: 500;
+     border: none;
+}
+
+.Profile__six > button:hover{
+     background-color: black;
+     color: white;
+}
+
+.Profile__seven > button{
+     margin-bottom: 20px;
+     background-color: crimson;
+     color: white;
+     padding: 15px;
+     font-size: 16px;
+     width: 100%;
+     border-radius: 10px;
+     font-weight: 500;
+     border: none;     
+}
+
+.Profile__seven > button:hover{
+     background-color: black;
+     color: white;
+}
+
+.Profile__eight > div > input{
+     padding: 22px;
+     border-radius: 10px;
+}
+
+.Profile__eight > div{
+     margin-bottom:20px;
+}
+
+.Profile__button3 > button{
+     background-color: crimson;
+     color: white;
+     padding: 15px;
+     font-size: 16px;
+     width: 100%;
+     display: block;
+     border-radius: 10px;
+     font-weight: 500;
+     border: none;
+}
+
+.Profile__button3 > button:hover{
+     background-color:black;
+     color: white;
+}
+
+
+
+
+.Dashboard__one{
+     text-transform: capitalize;
+}
+
+.Dashboard__head{
+     text-align: center;
+}
+
+.Dashboard__head > button{
+     top: 100px;
+     bottom: 0;
+     right:100px;
+     text-align: center;
+     line-height: 28px;
+     position: absolute;
+     background-color: crimson;
+     width: 30px;
+     height: 30px;
+     border-radius: 20px;
+     color: white;
+     border: none;
+}
+
+.Dashboard__inner1{     
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:30px;
+     border-radius: 10px;
+     
+}
+
+.Dashboard__two > a{
+     display: block;
+     padding-bottom:20px;
+     color: black;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 16px;
+}
+
+.Dashboard__two > a:hover{
+     background-color: crimson;
+     color: white;
+     padding:10px;
+     border-radius: 5px;
+     border: none;
+}
+
+.Dashboard__two > a > span:hover{
+     color: white;
+     background-color: crimson;
+}
+
+.Dashboard__two > a > span{
+     color: crimson;
+}
+
+.Dashboard__inner2{
+     background-color: rgba(98,89,202,.15);
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:15px;
+     border-radius: 10px;
+     color: #6259ca;
+     margin-bottom: 25px;
+}
+
+.Dashboard__inner2 > div > div > span{
+     width: 65px;
+     height: 65px;
+     position: relative;
+     top: 15px;
+     text-align: center;
+     line-height: 2;
+     font-size: 32px;
+     border-radius: 50px;
+     background-color: #6259ca;
+     color: white;
+}
+
+.Dashboard__inner3{
+     background-color: rgba(14,198,198,.15);
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:15px;
+     border-radius: 10px;
+     color:#29bf6c;
+     margin-bottom: 25px;
+}
+
+.Dashboard__inner3 > div > div > span{
+     width: 65px;
+     height: 65px;
+     text-align: center;
+     line-height: 2;
+     position: relative;
+     top:15px;
+     font-size: 32px;
+     border-radius: 50px;
+     background-color: #29bf6c;
+     color: white;
+}
+
+.Dashboard__inner4{
+     background-color: rgba(239,29,38,.15);
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:15px;
+     border-radius: 10px;
+     color:#ef1d26;
+     margin-bottom: 25px;
+}
+
+.Dashboard__inner4 > div > div > span{
+     width: 65px;
+     height: 65px;
+     text-align: center;
+     line-height: 2;
+     position: relative;
+     top:15px;
+     font-size: 32px;
+     border-radius: 50px;
+     background-color: #ef1d26;
+     color: white;
+}
+
+.DashboardT__three > tr > td{
+     margin-bottom: 20px;
+}
+
+.DashboardT__four > tr > td > span{
+     background-color: rgba(14,198,198,.15);
+     color: #29bf6c;
+     padding: 4px 7px 4px 7px;
+     border-radius: 10px;
+}
+
+.DashboardT__four > tr > td{
+     margin-bottom: 20px;
+     padding:10px !important;
+     vertical-align: middle !important;
+     font-weight:500;
+}
+
+.DashboardT__four > tr > td > a > img{
+     display: inline-block;
+     border-radius:10px;
+}
+
+.DashboardT__four > tr > td > a > label{
+     color: black;
+     padding-left:10px;
+     font-size:16px;
+     font-weight:500;
+}
+
+.DashboardT__four > tr > td > a > label:hover{
+     color: crimson;
+}
+
+.DashboardT__inner5{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:30px;
+     border-radius: 10px;
+}
+
+
+
+
+
+.MyListing__one{
+     text-transform: capitalize;
+}
+
+.MyListing__head{
+     text-align: center;
+}
+
+.MyListing__head > button{
+     top: 100px;
+     bottom: 0;
+     right:100px;
+     text-align: center;
+     line-height: 28px;
+     position: absolute;
+     background-color: crimson;
+     width: 30px;
+     height: 30px;
+     border-radius: 20px;
+     color: white;
+     border: none;
+}
+
+.MyListing__inner1{     
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:30px;
+     border-radius: 10px;     
+}
+
+.MyListing__two > a{
+     display: block;
+     padding-bottom:20px;
+     color: black;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 16px;
+}
+
+.MyListing__two > a:hover{
+     background-color: crimson;
+     color: white;
+     padding:10px;
+     border-radius: 5px;
+     border: none;
+}
+
+.MyListing__two > a > span:hover{
+     color: white;
+     background-color: crimson;
+}
+
+.MyListing__two > a > span{
+     color: crimson;
+}
+
+.MyListing__three > tr > td{
+     margin-bottom: 20px;
+}
+
+.MyListing__four > tr > td > span{
+     background-color: rgba(14,198,198,.15);
+     color: #29bf6c;
+     padding: 4px 7px 4px 7px;
+     border-radius: 8px;
+}
+
+.MyListing__four > tr > td{
+     margin-bottom: 20px;
+     padding:10px !important;
+     vertical-align: middle !important;
+     font-weight:500;
+}
+
+.MyListing__four > tr > td > a > img{
+     display: inline-block;
+     border-radius:10px;
+}
+
+.MyListing__four > tr > td > a > label{
+     color: black;
+     padding-left:10px;
+     font-size:16px;
+     font-weight:500;
+}
+
+.MyListing__four > tr > td > a > label:hover{
+     color: crimson;
+}
+
+.MyListing__inner2{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:30px;
+     border-radius: 10px;
+}
+
+.MyListing__searchbox > input{
+     padding: 10px 12px 10px 35px;
+     border-radius: 10px;
+     height: 45px;
+}
+
+.MyListing__searchbox{
+     margin-bottom: 10px;
+}
+
+.MyListing__searchicon{
+     position: relative;
+     top: 32px;
+     left: 12px;
+     display: inline-block;
+}
+
+.MyListing__searchbtn > a{
+     background-color: crimson;
+     color: white;
+     border-radius: 10px;
+     letter-spacing: 1px;
+}
+
+.MyListing__searchbtn > a:hover{
+     background-color: black;
+     color: white;
+}
+
+.MyListingTable__icon1{
+     color: #6c757d;
+     border: solid 1px #6c757d;
+     border-radius:5px;
+     display: inline-block;
+     padding:4px 8px 4px 8px;
+     margin-right:4px;
+}
+
+
+.MyListingTable__icon1:hover{
+     background-color: #6c757d;
+     color: white;
+     border: none;
+}
+
+.MyListingTable__icon2{
+     color: #6c757d;
+     border: solid 1px #6c757d;
+     border-radius:5px;
+     display: inline-block;
+     padding:4px 8px 4px 8px;
+     margin-right:4px;
+}
+
+.MyListingTable__icon2:hover{
+     background-color: #6c757d;
+     color: white;
+     border: none;
+}
+
+.MyListingTable__icon3{
+     color: crimson;
+     border: 1px solid crimson;
+     border-radius:5px;
+     display: inline-block;
+     padding: 4px 8px 4px 8px;
+     margin-right:4px;
+}
+
+.MyListingTable__icon3:hover{
+     background-color: crimson;
+     color:white;
+     border:none;
+}
+
+.MyListing__pages{
+     text-align: center;
+}
+
+.MyListing__pages  > div{
+     display: inline-block;
+     text-align: center;
+     background-color: black;
+     color: white;
+     width: 36px;
+     height: 36px;
+     font-size: 16px;
+     font-weight: 400;
+     padding: 6px 10px 6px 10px;
+     margin-right: 6px;
+     border-radius: 7px;
+}
+
+.MyListing__pages > div:hover{
+     color: white;
+     background-color: crimson;
+     cursor: pointer;
+}
+
+
+
+
+
+
+.AddListing__one{
+     text-transform: capitalize;
+}
+
+.AddListing__head{
+     text-align: center;
+}
+
+.AddListing__head > button{
+     top: 100px;
+     bottom: 0;
+     right:100px;
+     text-align: center;
+     line-height: 28px;
+     position: absolute;
+     background-color: crimson;
+     width: 30px;
+     height: 30px;
+     border-radius: 20px;
+     color: white;
+     border: none;
+}
+
+.AddListing__inner1{     
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:30px;
+     border-radius: 10px;     
+}
+
+.AddListing__two > a{
+     display: block;
+     padding-bottom:20px;
+     color: black;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 16px;
+}
+
+.AddListing__two > a:hover{
+     background-color: crimson;
+     color: white;
+     padding:10px;
+     border-radius: 5px;
+     border: none;
+}
+
+.AddListing__two > a > span:hover{
+     color: white;
+     background-color: crimson;
+}
+
+.AddListing__two > a > span{
+     color: crimson;
+}
+
+.AddListing__inner2{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:30px;
+     border-radius: 10px;
+}
+
+.AddListing__three > div > label{
+     margin-bottom:10px;
+}
+
+.AddListing__three > div > input{
+     padding:25px;
+     border-radius:8px;
+     margin-bottom: 20px;
+}
+
+.AddListing__three > div > label{
+     margin-bottom: 10px;
+     font-weight: 500;
+}
+
+.AddListing__four > div > input{
+     padding:15px;
+     border-radius:8px;
+     margin-bottom: 20px;
+     width:100%;
+     border: 1px gray solid;
+}
+
+.AddListing__four > div > input:hover{
+     border-color: crimson;
+}
+
+.AddListing__four > div > label{
+     margin-bottom: 10px;
+     font-weight: 500;
+}
+
+.AddListing__four > div > textarea{
+     display:block;
+     padding:6%;
+     margin-bottom:10px;
+     width: 100%;
+     border-radius: 8px;
+}
+
+
+.AddListing__option{
+     width: 100%;
+     padding: 15px;
+     border-radius: 8px;
+     margin-bottom: 20px;
+     text-transform: capitalize;
+}
+
+.AddListing__option:hover{
+     border-color: crimson;
+}
+
+.AddListing__option > option{
+     color: crimson;
+     text-transform: capitalize;
+}
+
+.AddListing__uploadI > input{
+     border: 1px dashed #6c757d !important;
+     padding:8% !important;
+     text-align:center;
+     font-weight:500;
+     font-size:14px;
+     cursor: pointer;
+}
+
+.AddListing__checkbox > div{
+     padding: 0 0 0 15px;
+}
+
+.AddListing__checkbox > div > input{
+     border-radius:8px;
+     border: 1px gray solid;
+     margin-right: 5px;
+}
+
+.AddListing__checkbox > div > label{
+     margin-bottom: 15px;
+     cursor: pointer;
+     font-weight: 500;
+}
+
+.AddListing__contact > div{
+     padding: 0 0 0 15px;
+}
+
+.AddListing__contact > div > input{
+     margin-right: 5px;
+     padding:15px;
+     border-radius:8px;
+     margin-bottom: 20px;
+     width:100%;
+     border: 1px gray solid;
+}
+
+.AddListing__contact > div > input:hover{
+     border-color: crimson;
+}
+
+.AddListing__contact > div > label{
+     margin-bottom: 15px;
+     cursor: pointer;
+     font-weight: 500;
+}
+
+.AddListing__agree > div > input{
+     width: auto !important;
+     margin-bottom: 0!important;
+     border-radius: 8px;
+}
+
+.AddListing__agree > div > label{
+     font-weight: 500;
+     margin-bottom: 30px;
+     cursor: pointer;
+}
+
+.AddListing__agree{
+     padding-left: 15px;
+     padding-bottom: 30px;
+}
+
+.AddListing__btn{
+     padding:0 0 0 15px;
+}
+
+.AddListing__btn > input{
+     padding: 15px;
+     color: white;
+     background-color: crimson;
+     font-weight: 500;
+     border-radius: 10px;
+     font-size: 16px;
+}
+
+.AddListing__btn > input:hover{
+     background-color: black;
+     color: white;
+}
+
+
+.Blog{
+     text-transform: capitalize;
+}
+
+.Blog__H{
+     text-transform: capitalize;
+     text-align: center;
+     margin-bottom: 8%;
+}
+
+.Blog__H > h4{
+     letter-spacing: 3px;
+     color: crimson;
+     text-transform: uppercase;
+}
+
+.Blog__H > h1{
+     color:black;
+     margin:0;
+     font-size: 46px;
+     font-weight: 700;
+}
+
+.Blog__H > h1 > span{
+     color:crimson;
+}
+
+.Blog__L{
+     border: crimson solid 2px;
+     width: 90px;
+     display: inline-block;
+}
+
+
+
+.Blog__two > img,h3{
+     margin-bottom: 20px;
+     border-radius: 10px;
+}
+
+.Blog__two{     
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:20px;
+     border-radius: 10px;
+     margin-bottom: 30px;     
+}
+
+.Blog__two > h3:hover{
+     color: crimson;
+}
+
+
+.BlogD__two > div > h5:hover{
+     color: crimson;
+     cursor: pointer;
+}
+
+.BlogD__two > div > h5{
+     font-size: 14px;
+}
+
+.BlogD__two > div{
+     padding: 0 15px 0 0;
+}
+
+.BlogD__two > div > h5 > span{
+     color: crimson;
+}
+
+.Blog__two > a{
+     padding: 15px 20px 15px 20px;
+     background-color: crimson;
+     color: white;
+     font-weight: 500;
+     border-radius: 12px;
+}
+
+.Blog__two > a:hover{
+     background-color: black;
+     color: white;
+     border: none;
+}
+
+
+.Blog__pages{
+     text-align: center;
+     margin-bottom: 40px;
+}
+
+.Blog__pages  > div >a{
+     text-align: center;
+     background-color: black;
+     color: white;
+     width: 40px;
+     height: 40px;
+     font-size: 16px;
+     font-weight: 400;
+     padding: 6px 10px;
+     line-height: 25px;
+     text-decoration: none;
+     margin-right: 10px;
+     border-radius: 7px;
+     float: left;     
+}
+
+.Blog__pages > div > a:hover{
+     color: white;
+     background-color: crimson;
+     cursor: pointer;
+}
+
+
+.BlogSingle{
+     text-transform: capitalize;
+}
+
+.BlogSingle__one > img{
+     border-radius: 15px;
+     margin-bottom: 10px;
+}
+
+.BlogSingle__details{
+     margin-bottom: 30px;
+}
+
+.BlogSingle__details > div > span{
+     color: crimson;
+     margin-right: 5px;
+}
+
+.BlogSingle__details > div > a > span{
+     color: crimson;
+     margin-right: 5px;
+}
+
+.BlogSingle__name{
+     margin-right: 20px;
+     display: inline-block;
+     font-size: 16px;
+}
+
+.BlogSingle__name > a{
+     text-decoration: none;
+     color: black;
+     letter-spacing: 1px;
+     font-weight: 500;
+}
+
+.BlogSingle__name > a:hover{
+     color: crimson;
+}
+
+.BlogSingle__comment{
+     margin-right: 20px;
+     display: inline-block;
+     font-size: 16px;
+}
+
+.BlogSingle__comment > h5{
+     display: inline-block;
+}
+
+.BlogSingle__like{
+     margin-right: 20px;
+     display: inline-block;
+     font-size: 16px;
+}
+
+.BlogSingle__like > h5{
+     display: inline-block;
+}
+
+.BlogSingle__share{
+     float: right;
+     font-size: 16px;
+}
+
+.BlogSingle__share > h5{
+     display: inline-block;
+}
+
+.BlogSingle__content{
+     text-transform: none;
+}
+
+.BlogSingle__content > p{
+     line-height: 25px;
+     text-align: justify;
+}
+
+.BlogSingle__image > div > img{
+     border-radius: 15px;
+     margin-bottom: 20px;
+}
+
+.BlogSingle__tag > h4{
+     display: inline-block;
+     margin-right: 20px;
+}
+
+.BlogSingle__tag > a{
+     background-color: #f9f9f9;
+     margin-bottom: 30px;
+     padding:5px 15px 5px 15px;
+     margin-right: 20px;
+     border-radius: 10px;
+     color: black;
+     text-decoration: none;
+     display: inline-block;
+}
+
+.BlogSingle__tag > a:hover{
+     background-color: crimson;
+     color: white;
+}
+
+.BlogSingle__author{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:20px;
+     border-radius: 10px;
+     margin-bottom: 40px;
+}
+
+.BlogSingle__author > div > div > h3{
+     color: crimson;
+     margin: 10px 0;
+}
+
+.BlogSingle__author > div > div > h4{
+     font-weight: 500;
+     margin: 10px 0;
+}
+
+.BlogSingle__author > div > div > p{
+     text-transform: none;
+}
+
+.BlogSingle__author > div > div > img{
+     border-radius: 10px;
+}
+
+.BlogSingle__authorD > a > span{
+     display: inline-block;
+     width: 35px;
+     height: 35px;
+     color: crimson;
+     text-align: center;
+     border: 2px solid #ef1d26;
+     border-radius: 50px;
+     line-height: 33px;
+     font-size: 16px;
+     margin-right: 10px;
+}
+
+.BlogSingle__authorD > a{
+     text-decoration: none;
+}
+
+.BlogSingle__authorD > a > span:hover{
+     background-color: crimson;
+     color: white;
+}
+
+.BlogSingle__feedback{
+     background-color: #f9f9f9;
+     margin-bottom: 30px;
+     padding:20px;
+     border-radius: 10px;
+}
+
+.BlogSingle__feedbackF > div > input{
+     padding: 25px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+}
+
+.BlogSingle__feedbackF > div > textarea{
+     width: 100%;
+     padding: 20px 0 15% 20px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+}
+
+.BlogSingle__feedbackF > div > textarea,input:hover{
+     border-color: crimson;
+}
+
+.BlogSingle__feedbackB > button{
+     padding: 15px 10px 15px 10px !important;
+     background-color: crimson;
+     color: white;
+     border: none;
+     border-radius: 10px;
+     font-size: 16px;
+     font-weight: 500;
+}
+
+.BlogSingle__feedbackB > button:hover{
+     background-color:black;
+     color: white;
+}
+
+.BlogSingle__two{
+     background-color: #f9f9f9;
+     margin-bottom: 30px;
+     padding:20px;
+     border-radius: 10px;
+}
+
+.BlogSingle__two > input{
+     padding: 10px;
+     width: 100%;
+     border-radius: 10px;
+     border: gray solid 1px;
+     display: inline-block;
+}
+
+.BlogSingle__two > span{
+     position: relative;
+     float: right;
+     bottom: 36px;
+     right: 10px;
+     font-size: 25px;
+     color: crimson;
+}
+
+.BlogSingle__two > input:hover{
+     border: solid 1px crimson;
+}
+
+.BlogSingle__three{
+     background-color: #f9f9f9;
+     margin-bottom: 20px;
+     padding:20px 20px 30px 20px;
+     border-radius: 10px;
+}
+
+.BlogSingle__three > a > h5{
+     float: right;
+     margin:0;
+}
+
+.BlogSingle__three > a > span{
+     color: crimson;
+}
+
+.BlogSingle__three > hr{
+     margin-top: 15px;
+     margin-bottom: 15px;
+     width: 100%;
+}
+
+.BlogSingle__three > a{
+     display: block;
+     color: black;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 16px;
+}
+
+.BlogSingle__three > a:hover{
+     color: crimson;
+}
+
+.BlogSingle__three > h5{
+     float: right;
+}
+
+.BlogSingle__four{
+     background-color: #f9f9f9;
+     margin-bottom: 20px;
+     padding:20px 15px 30px 15px;
+     border-radius: 10px;
+}
+
+.BlogSingle__four > div > div > img{
+     padding-right: 15px;
+}
+
+.BlogSingle__four > div > div > h5{
+     margin: 0;
+     font-size: 16px;
+}
+
+.BlogSingle__four > div > div > h5:hover{
+     color: crimson;
+     cursor: pointer;
+}
+
+.BlogSingle__four > div > div >span{
+     color: crimson;
+     line-height: 30px;
+}
+
+.BlogSingle__five{
+     background-color: #f9f9f9;
+     margin-bottom: 20px;
+     padding:20px 15px 30px 15px;
+     border-radius: 10px;  
+}
+
+.BlogSingle__five > a > span{
+     display: inline-block;
+     width: 35px;
+     height: 35px;
+     color: crimson;
+     text-align: center;
+     border: 2px solid #ef1d26;
+     border-radius: 50px;
+     line-height: 33px;
+     font-size: 16px;
+     margin-right: 10px;
+}
+
+.BlogSingle__five > a{
+     text-decoration: none;
+}
+
+.BlogSingle__five > a > span:hover{
+     background-color: crimson;
+     color: white;
+}
+
+.BlogSingle__six{
+     background-color: #f9f9f9;
+     margin-bottom: 20px;
+     padding:20px 15px 30px 15px;
+     border-radius: 10px;  
+}
+
+.BlogSingle__six > a{
+     text-decoration: none;
+     margin-right: 30px;
+}
+
+.BlogSingle__six > a > h5{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:15px;
+     border-radius: 10px;
+     display: inline-block; 
+     color: black;
+     font-size: 14px;
+     font-weight: 500;
+}
+
+.BlogSingle__six > a > h5:hover{
+     background-color: crimson;
+     color: white;
+}
+
+
+
+
+
+
+
+.footer_style{
+     background-color: black;
+}
+
+.footer_para,.footer_address{
+     color: #ffff;
+     text-align: justify;
+     font-size: 16px;
+     line-height: 25px;
+}
+
+.footer_dial,.footer_mail{
+     color: #ffff;
+     cursor: pointer;
+     font-size: 16px;
+     line-height: 25px;
+}
+
+.footer_hr_color{
+     border: 1px #EF1D26 solid;
+}
+
+
+.footer_gly_style{
+     background-color: #EF1D26;
+     padding: 8px 8px;
+     border: 1px solid #EF1D26;
+     border-radius: 15px;
+}
+
+.nastyle{
+     list-style-type: none;
+}
+
+.footer_heading1{
+     color: #ffff;
+     text-transform: capitalize;
+     text-align: center;
+}
+
+.footer_color{
+     color: white;
+     text-transform: capitalize;
+   }
+   .footer_color:hover{
+     color: #EF1D26;
+     text-decoration: none;
+   }
+   .footer_news-content{
+     color: #ffff;
+     padding: 0px 5px;
+   }
+
+   .footer_mailbox{
+     padding:24px !important;
+     border-radius: 10px;
+   }
+
+   .footer_btn{
+     border: 1px solid #EF1D26;
+     background-color: #EF1D26;
+     color: #ffff;
+     font-weight: bold;
+     text-transform: capitalize;
+     width: 100%;
+     padding: 16px;
+     border-radius: 10px;
+   }
+   .footer_btn:hover{
+     border: 1px solid #ffff;
+     background-color: #ffff;
+     color: #EF1D26;
+   }
+   .footer_gly_color{
+     color: #EF1D26;
+   }
+   
+   .footer_end_logo1{
+     display: flex;
+     list-style-type: none;
+     gap: 15px;
+   }
+   
+   .footer_end_name{
+     color: #ffff;
+     text-transform: capitalize;
+     font-weight: 16px;
+   }
+   
+   .footer_end_link{
+     text-transform: uppercase;
+     color: #EF1D26;
+     cursor: pointer;
+   }
+
+   .footer_end_style{
+     background: rgb(20, 19, 19);   
+   }
+
+   .footer_end_logo{
+     font-size: 20px;
+     border: 1px hidden #ffff;
+     background-color: #ffff;
+     border-radius: 10px;
+   }
+   .footer_end_logo1{
+     font-size: 20px;
+     border: 1px hidden #ffff;
+     background-color: #ffff;
+     border-radius: 10px;
+   }
+   .footer_end_logo2{
+     font-size: 20px;
+     border: 1px hidden #ffff;
+     background-color: #ffff;
+     border-radius: 10px;
+   }
+   .footer_end_logo3{
+     font-size: 20px;
+     border: 1px hidden #ffff;
+     background-color: #ffff;
+     border-radius: 10px;
+   }
+
+
+
+.footer__contactus{
+     margin-bottom: 20%;
+}
+
+.footer__symbol{
+     text-transform: capitalize;
+     height: 80px;
+     background-color: #EF1D26;
+}
+
+.footer__symbolC1{
+     font-size: 16px;
+     color: white;
+     background-color: black;
+     padding: 20px;
+     height: 80px;
+}
+
+.footer__symbolC1 > div > span,h5{
+     display: inline-block;
+}
+
+.footer__symbolC2{
+     padding: 20px;
+     height: 80px;
+     background-color: #EF1D26;
+}
+
+   .footer__symbolC2 > div > a > span{
+     width: 35px;
+     height: 35px;
+     color: crimson;
+     text-align: center;
+     border-radius: 10px;
+     line-height:38px;
+     font-size: 18px;
+     margin-right: 10px;
+     background-color: white;
+     display: inline-block;
+}
+
+.footer__symbolC2 > div > a{
+     text-decoration: none;
+}
+
+.footer__symbolC2 > div > a > span:hover{
+     background-color: black;
+     color: white;
+}
+
+
+
+
+
+.Service__twoHeading{
+     margin-bottom: 8%;
+     padding:1% 1% 7% 1%;
+}
+
+@media (max-width:992px) {
+     .Service__twoHeading{
+          padding-bottom: 20%;
+     }
+}
+
+.Service__twoH{
+     text-transform: capitalize;
+     text-align: center;
+     margin-bottom: 8%;
+}
+
+.Service__twoH > h4{
+     letter-spacing: 3px;
+     color: crimson;
+     text-transform: uppercase;
+}
+
+.Service__twoH > h1{
+     color:black;
+     margin:0;
+     font-size: 46px;
+     font-weight: 700;
+}
+
+.Service__twoH > h1 > span{
+     color:crimson;
+}
+
+.Service__twoL{
+     border: crimson solid 2px;
+     width: 90px;
+     display: inline-block;
+}
+
+
+
+.Service__two{
+     margin-bottom: 30px;
+     text-transform: capitalize;
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding: 20px;
+     border-radius: 10px;
+}
+
+.Service__two > img{
+     border-radius: 10px;
+}
+
+.Service__two > p{
+     margin-bottom: 30px;
+}
+
+.Service__two > a{
+     margin-top: 20px;
+     padding: 10px 20px;
+     background-color: crimson;
+     color: white;
+     border: none;
+     text-transform: capitalize;
+     font-weight: 500;
+     font-size: 16px;
+     border-radius: 10px;
+     text-decoration: none;
+}
+
+.Service__two > a:hover{
+     background-color: black;
+}
+  
+
+
+
+.Service__title{
+       color:white;
+       font-weight: 900;
+       font-size: 40px;
+}
+  
+.Service > h4{
+       color:white;
+}
+  
+.Service > h4 > span{
+       color:crimson;
+}
+  
+.Service > h4 > a{
+       color:white;
+       text-decoration: none;
+}
+  
+.Service > h4 > a:hover{
+       color:crimson;
+  
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*tamil code*/
+
+
+
+
+
+.main{
+     background-image: url("C:/Users/diwak/OneDrive/Desktop/HEJEX Technologies/projects/React Car Project/src/Components/Assets/jpg/slider-3.jpg");
+     padding-top: 150px;
+     padding-bottom: 180px;
+     background-position: center !important; 
+     background-size: cover !important;
+     background-repeat: no-repeat;
+     align-items: center;
+     position: relative;
+     z-index: 1;
+   }
+   .heading_one{
+     font-size: 18px;
+     font-family: monospace;
+     letter-spacing: 6px;
+     font-weight: 800px;
+     color: #EF1D26;
+     position: relative;
+     text-transform: uppercase;
+   }
+   .heading_two{
+     color: #ffff;
+     text-transform: capitalize;
+     font-weight: 800px;
+     margin: 20px 0px;
+   }
+   .heading_three{
+     color: #EF1D26;
+   }
+   .heading_four{
+     color: #ffff;
+     font-weight: 500px;
+   }
+   .heading_five{
+     border: 3px solid #EF1D26;
+     border-radius: 7px;
+     padding: 12px 8px;
+     background-color: #EF1D26;
+     color: #ffff;
+   }
+   .heading_six{
+     border: 3px solid #ffff;
+     border-radius: 7px;
+     padding: 12px 8px;
+     background-color: #ffff;
+     color:#EF1D26;
+     margin: 10px 20px;
+   }
+   .heading_five:hover{
+     background-color: black;
+     border: 3px solid black;
+     border-radius: 3px;
+     color: #ffff;
+   }
+   .heading_six:hover{
+     background-color: #EF1D26;
+     border: 3px solid #EF1D26;
+     border-radius: 7px;
+     color: #ffff;
+   }
+   
+   .form_heading{
+     text-transform: capitalize;
+   }
+   .form_button{
+     border-radius: 7px;
+     background-color: #EF1D26;
+     color: #ffff;
+     margin: 28px 0px;
+   }
+   .form_button:hover{
+     background-color: black;
+     border: none;
+     border-radius: 7px;
+     color: #ffff;
+   }
+   label{
+     font-weight: 400;
+     cursor: pointer;
+   }
+   .form-style{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:20px;
+     border-radius: 10px;
+     margin-bottom: 40px;
+   }
+   .latest_car{
+     background-color: #ffff;
+   }
+   .car_img{
+     border: 2px solid #ffff;
+     border-radius: 7px;
+     width: 300px;
+   }
+   .first_car{
+     margin-bottom: 20px;
+   }
+   .car_name>a{
+     color:black;
+   }
+   .car_name>a:hover{
+     color: #EF1D26;
+     text-decoration: none;
+   }
+   .car_price{
+     color: #EF1D26;
+     font-weight: bold;
+   }
+   .car_details{
+     border: 2px solid #EF1D26;
+     border-radius: 7px;
+     background-color: #EF1D26;
+     color: #ffff;
+     font-weight: bold;
+     margin: 0px 40px;
+   }
+   .car_details:hover{
+     border: 2px solid black;
+     border-radius: 7px;
+     background-color: black;
+     color: #ffff;
+   }
+   .car_arrivals{
+     color: #EF1D26;
+     font-weight: 800;
+     text-transform: uppercase;
+     font-family: monospace;
+     letter-spacing: 6;
+   }
+   .car_check{
+     text-transform: capitalize;
+   }
+   .car_check1{
+     color: #EF1D26;
+   }
+   .car_load{
+     border: 2px solid #EF1D26;
+     border-radius: px;
+     background-color: #EF1D26;
+     color: #ffff;
+     text-transform: capitalize;
+   }
+   .car_load:hover{
+     border: 2px solid black;
+     border-radius: 7px;
+     background-color: black;
+     color: white;
+   }
+   
+   .carbody_style{
+     border: 2px solid #ffff;
+     border-radius: 7px;
+   }
+   .carbody_style:hover{
+     background-color: #EF1D26;
+     color: #ffff;
+   }
+   .carbody_name{
+     text-transform: capitalize;
+     font-weight: bold;
+     letter-spacing: 10;
+   }
+   .carbody_heading{
+     color: #EF1D26;
+     letter-spacing: 6;
+     font-family: monospace;
+     text-transform: uppercase;
+     font-weight: bold;
+   }
+   .carbody_heading2{
+     text-transform: capitalize;
+     font-weight: 500;
+   }
+   .carbody_heading3{
+     color: #EF1D26;
+   }
+   
+   
+   .cardel_bg{
+     background-color: rgba(239, 29, 38, .05);
+     border: 1px solid rgba(239, 29, 38, .05);
+     border-radius: 7px;
+   }
+   .cardel_size{
+     padding: 0px 8px;
+   }
+   .cardel_name{
+     text-transform: capitalize;
+     color: black;
+   }
+   .cardel_name:hover{
+     color: #EF1D26;
+     text-decoration: none;
+   }
+   .cardel_ph,.cardel_add{
+     color: grey;
+   }
+   .cardel_ph:hover{
+     color: #EF1D26;
+     text-decoration: none;
+   }
+   .cardel_gly{
+     color:#EF1D26
+   }
+   .cardel_list{
+       position: absolute;
+       background-color: #EF1D26;
+       color: #ffff;
+       left: -8px;
+       top: 8px;
+       border: 1px solid #EF1D26;
+       border-radius: 7px;
+       padding: 2px 10px;
+       font-weight: 500;
+       z-index: 1;
+   }
+   .cardel_style{
+     border: 2px solid #ffff;
+     border-radius: 7;
+     background-color: #ffff;
+     margin-bottom: 20px
+     p;
+   }
+   .cardel_style:hover{
+     background-color: mistyrose;
+     border: 1px solid mistyrose;
+     border-radius: 7px;
+   }
+   .cardel_heading{
+     color: #EF1D26;
+     text-transform: uppercase;
+     font-family: monospace;
+     letter-spacing: 6;
+     font-weight: bold;
+   }
+   .cardel_heading2{
+     text-transform: capitalize;
+     font-weight: 500;
+   }
+   .cardel_heading3{
+     color: #EF1D26;
+   }
+   
+   .quality_ser_style{
+     background-color: black;
+     width: 100%;
+     height: 100%;
+   }
+   .quality_ser_01{
+      border: 1px solid #ffff;
+     margin: 20px 0px;
+     border-radius: 7px;
+     background-color: #ffff;
+     padding: 10px 10px;
+   }
+   .quality_ser_01:hover{
+     background-color: rgb(247, 247, 247);
+     border: 1px solid rgb(247, 247, 247);
+     border-radius: 7px;
+   }
+   .quality_ser_num{
+       right: 25px;
+       top: 0;
+       font-size: 60px;
+       font-weight: 800;
+       -webkit-text-stroke: 1px #EF1D26;
+       -webkit-text-fill-color: transparent;
+       z-index: -1;
+   }
+   .quality_ser_name{
+     text-transform: capitalize;
+   }
+   .quality_ser_name2{
+     color: gray;
+   }
+   
+   .quality_ser_heading{
+     color: #EF1D26;
+     letter-spacing: 6;
+     font-family: monospace;
+     text-transform: uppercase;
+     font-weight: bold;
+   }
+   .quality_ser_heading2{
+     color: #ffff;
+     text-transform: capitalize;
+     font-weight: 500;
+   }
+   .quality_ser_heading3{
+     color: #EF1D26;
+   }
+   .quality_ser_para{
+     color: #ffff;
+     font-weight: 500;
+   }
+   
+   .shop_tags a {
+     margin: 10px 6px 0 0;
+     padding: 6px 15px;
+     border-radius: 10px;
+     background:#F9F9F9;;
+     color: #111111;
+     text-decoration: none;
+   }
+   .shop_tags a:hover{
+     background-color: #EF1D26;
+     color: #ffff;
+   }
+   .shop_banner{
+     background-image: url("C:React Car Project/src/Components/Assets/jpg/shop_banner_img.jpg");
+     background-size: cover;
+     background-position: center;
+     margin: 0;
+     border-radius: 15px;
+   }
+   .shop_banner_content{
+     text-transform: capitalize;
+     color: #ffff;
+     padding: 120px 20px 100px;
+   }
+   .shop_content3{
+     color: #EF1D26;
+   }
+   .shop_button{
+     background-color: #EF1D26;
+     color: #ffff;
+     font-size: 16px;
+     padding: 10px 10px;
+     border: none;
+     border-radius: 13px;
+     box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+     text-transform: capitalize;
+   }
+   .shop_star{
+     text-align: center;
+   }
+   .shop_star2{
+     padding: 3px;
+     color: #FBA707;
+   }
+   .shop_name{
+     text-align: center;
+   }
+   .shop_name2{
+     font-weight: 500;
+     font-size: 500;
+     color: #111111;
+     text-transform: capitalize;
+     text-decoration: none;
+   }
+   .shop_name2:hover{
+     color: #EF1D26;
+     text-decoration: none;
+   }
+   
+   .shop_price_1{
+       font-size: 18px;
+       color: grey;
+       font-weight: 700;
+       margin-top: 5px;
+       padding: 0px 10px;
+   }
+   .shop_item_price{
+     text-align: center;
+     font-size: 18px;
+     color: #EF1D26;
+     font-weight: 700;
+     margin-top: 5px;
+   }
+   .shop_sale{
+     position: absolute;
+     padding: 2px 14px;
+     border-radius: 10px;
+     text-align: center;
+     right: 5px;
+     top: 50px;
+     font-size: 16px;
+     color: #ffff;
+     background: #EF1D26;
+     z-index: 2;
+     text-transform: capitalize;
+   }
+   .shop_img:hover{
+     border: 1px hidden lightcoral;
+     border-radius: 15px;
+     background-color: lightcoral;
+   }
+
+   .shop_page{
+     text-align: center;
+     padding:0 0 0 28px;
+     margin-top:5%;
+     margin-bottom: 40px;
+   }
+
+   .shop_page > div > a{
+     text-align: center;
+     background-color: black;
+     color: white;
+     width: 40px;
+     height: 40px;
+     font-size: 16px;
+     font-weight: 400;
+     padding: 6px 10px;
+     line-height: 25px;
+     text-decoration: none;
+     margin-right: 10px;
+     border-radius: 7px;
+     float: left;
+}
+
+   .shop_page > div > a:hover{
+     color: white;
+     background-color: crimson;
+     cursor: pointer;
+}
+
+
+   .shop_range{
+     color: #EF1D26;
+   }
+
+   .contact_address{
+     text-align: center;
+     background: #ffff;
+     box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+     margin-bottom: 25px;
+     padding: 30px 20px;
+     border-radius: 15px;
+     gap: 15px;
+   }
+   .contact_info{
+     font-size: 35px;
+     color: #ffff;
+     width: 70px;
+     height: 70px;
+     line-height: 70px;
+     text-align: center;
+     border-radius: 50px;
+     background: #EF1D26;
+   }
+   .contact_address1{
+     font-size: 20px;
+     font-weight: 700;
+     margin-bottom: 8px;
+     color: #111111;
+     text-transform: capitalize;
+   }
+   .contact_address2{
+     color: var(--color-dark);
+     font-weight: 500;
+     font-size: 16px;
+     text-transform: capitalize;
+   }
+   .contact_address3{
+     color: var(--color-dark);
+     font-weight: 500;
+     font-size: 16px;
+   }
+   
+   .contact_btn{
+     border: 1px solid #EF1D26;
+     background-color: #EF1D26;
+     color:#ffff;
+     font-weight: bold;
+     padding: 8px 77px;
+     text-transform: capitalize;
+     width:100%
+   }
+   .contact_btn:hover{
+     border: 1px solid #ffff;
+     background-color: #111111;
+     color: #ffff;
+   }
+   .contact_form_img{
+     width: 100%;
+     border-radius: 15px 50% 50% 15px;
+   }
+   .contact_form1{
+     padding: 20px 0px;
+   }
+   .contact_form_heading{
+     font-size: 30px;
+     font-weight: 700;
+     margin-bottom: 10px;
+     color: #111111;
+     text-transform: capitalize;
+   }
+   .contact_form_para{
+     color: grey;
+     font-weight: 400;
+     font-size: medium;
+   }
+   .form-control{
+     padding: 20px 15px;
+     border-radius: 12px;
+     border: 1px solid none;
+   }
+   .form-control:hover{
+     border: 1px solid #EF1D26;
+     text-decoration: none;
+   }
+   .contact_form{
+     background: #ffff;
+     border-radius: 10px;
+     padding: 20px;
+     box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+   }
+
+   .contact__form > div > div{
+     margin-bottom: 20px;
+   }
+   #contact_map1{
+     width: 100%;
+   }
+
+   .shop_checkout_heading{
+     font-size: 25px;
+     margin-bottom: 20px;
+     text-transform: capitalize;
+   }
+   .shop_checkout_form{
+     background: #ffff;
+     padding: 30px;
+     margin-bottom: 30px;
+     border-radius: 15px;
+     box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+   }
+   .shopcheckout__form > div > div{
+     margin-bottom: 20px;
+   }
+   .shop_checkout_name{
+     text-transform: capitalize;
+     font-size: 15px;
+   }
+   .shop_checkout_bill{
+     font-size: 15px;
+     text-transform: capitalize;
+   }
+   .shop_checkout_bill1{
+     font-size: 15px;
+     text-transform: capitalize;
+     color: gray;
+   }
+   .shop_checkout_btn{
+     color: #ffff;
+     background-color: #EF1D26;
+     text-align: center;
+     padding: 13px 17px;
+     border-radius: 10px;
+     text-transform: capitalize;
+   }
+   
+   .shop_checkout_btn:hover{
+     color: #ffff;
+     background-color:#111111;
+     text-align: center;
+     padding: 13px 17px;
+     border-radius: 10px;
+   }
+   .star_gly{
+     letter-spacing: 5px;
+     font-size: 15px;
+     color: #FBA707;
+     padding: 0 0;
+     margin: 0 0;
+   }
+   .inventory_review{
+     color: gray;
+     font-size: 15px;
+     font-weight: 40px;
+   }
+   .inventory_drive{
+     color: gray;
+   }
+   .inventory_road{
+     color: gray;
+   }
+   .inventory_line{
+     border: 1px solid rgb(243, 243, 243);
+     width: 270px;
+   }
+   .inventory_status{
+     text-transform: uppercase;
+     position: absolute;
+       left: 15px;
+       top: 88px;
+       background: #EF1D26;
+       color: #ffff;
+       padding: 2px 8px;
+       border-radius: 6px;
+       margin: 0px 5px;
+       font-size: 12px;
+       font-weight: 500;
+       letter-spacing: .5px;
+       z-index: 1;
+   }
+   
+   .inventory_img{
+       border-radius: 10px;
+       background-color: white;
+       box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+       padding:15px 10px;
+       border-radius: 10px;
+       margin-bottom: 20px;
+   }
+   .inventory_details{
+     border: 2px solid #EF1D26;
+     border-radius: 7px;
+     background-color: #EF1D26;
+     color: #ffff;
+     font-weight: bold;
+     margin-top: -10px;  
+   }
+
+   .inventory_details:hover{
+     background-color: black;
+     color: white;
+     border: none;
+   }
+   .inventory_status1{
+     text-transform: uppercase;
+     position: absolute;
+       left: 15px;
+       top: 88px;
+       background: green;
+       color: #ffff;
+       padding: 2px 8px;
+       border-radius: 6px;
+       margin: 0px 5px;
+       font-size: 12px;
+       font-weight: 500;
+       letter-spacing: .5px;
+       z-index: 1;
+   }
+   .inventory_img_01{
+     border-radius: 8px;
+   }
+   .inventory_brand{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:15px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+   }
+   .inventory_check{
+     font-weight: 400px;
+     color: #111111;
+   }
+   .inventory_space{
+     border: 2px solid #EF1D26;
+     width: 60px;
+   }
+   .inventory_name{
+     text-transform: capitalize;
+   }
+   .inventory_gly2{
+     border: 1px solid #EF1D26;
+     padding: 3px 6px;
+     font-weight: 500px;
+     color: #EF1D26;
+     margin-right: 20px;
+     border-radius: 5px;
+   }
+   .inventory_gly{
+     text-align: center;
+   }
+   .inventory_gly3{
+     border: 1px solid gray;
+     padding: 3px 6px;
+     font-weight: 500px;
+     color: #111111;
+     border-radius: 5px;
+   }
+   .inventory_search{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     padding:10px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+   }
+   .inventory_back{
+     background-color: white;
+     box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);
+     border-radius: 10px;
+     margin-bottom: 20px; 
+   }
+   .inventory_sort{
+     position: relative;
+     bottom: 20px;
+   }
+   .inventory_gly{
+     position: relative;
+     bottom: 10px;
+   }
+   .car_space{
+     border: 2px solid #EF1D26;
+     width: 60px;
+     margin: 12px 0px;
+   }
+   
+   
